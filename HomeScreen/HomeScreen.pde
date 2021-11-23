@@ -34,8 +34,8 @@ void setup()
   ptY7 = displayHeight*2/3;
   ptX8 = ptX5;
   ptY8 = ptY7;
-  ptX9 = ;
-  ptY9 = ;
+  ptX9 = ptX6;
+  ptY9 = ptY8;
   rectdisplayWidth = ptX2;
   rectdisplayHeight = ptY4;
   circleDiameter = width*1/40;
