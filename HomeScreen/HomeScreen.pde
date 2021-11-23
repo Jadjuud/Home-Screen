@@ -34,8 +34,8 @@ void setup()
   ptY7 = displayHeight*2/3;
   ptX8 = ptX5;
   ptY8 = ptY7;
- //ptX9 = 
- //ptY9 = 
+  ptX9 = ;
+  ptY9 = ;
   rectdisplayWidth = ptX2;
   rectdisplayHeight = ptY4;
   circleDiameter = width*1/40;
@@ -53,7 +53,7 @@ void draw()
   rect(ptX6, ptY6, rectdisplayWidth, rectdisplayHeight);
   rect(ptX7, ptY7, rectdisplayWidth, rectdisplayHeight);
   rect(ptX8, ptY8, rectdisplayWidth, rectdisplayHeight);
-  //rect(ptX9, ptY9, rectdisplayWidth, rectdisplayHeight);
+  rect(ptX9, ptY9, rectdisplayWidth, rectdisplayHeight);
   //
   fill(black);
   ellipse(ptX1, ptY1, circleDiameter, circleDiameter);
@@ -64,6 +64,7 @@ void draw()
   ellipse(ptX6, ptY6, circleDiameter, circleDiameter);
   ellipse(ptX7, ptY7, circleDiameter, circleDiameter);
   ellipse(ptX8, ptY8, circleDiameter, circleDiameter);
+  ellipse(ptX9, ptY9, circleDiameter, circleDiameter);
   fill(white);
 }//End draw()
 
