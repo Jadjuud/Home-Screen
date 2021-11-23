@@ -39,7 +39,7 @@ void setup()
   rectdisplayWidth = ptX2;
   rectdisplayHeight = ptY4;
   circleDiameter = width*1/40;
-  
+
   //
 }//End setup()
 
