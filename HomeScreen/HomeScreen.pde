@@ -46,13 +46,21 @@ void setup()
 void draw()
 {
   rect(ptX1, ptY1, rectdisplayWidth, rectdisplayHeight);
+  //
   rect(ptX2, ptY2, rectdisplayWidth, rectdisplayHeight);
+  //
   rect(ptX3, ptY3, rectdisplayWidth, rectdisplayHeight);
+  //
   rect(ptX4, ptY4, rectdisplayWidth, rectdisplayHeight);
+  //
   rect(ptX5, ptY5, rectdisplayWidth, rectdisplayHeight);
+  //
   rect(ptX6, ptY6, rectdisplayWidth, rectdisplayHeight);
+  //
   rect(ptX7, ptY7, rectdisplayWidth, rectdisplayHeight);
+  //
   rect(ptX8, ptY8, rectdisplayWidth, rectdisplayHeight);
+  //
   rect(ptX9, ptY9, rectdisplayWidth, rectdisplayHeight);
   //
   fill(black);
