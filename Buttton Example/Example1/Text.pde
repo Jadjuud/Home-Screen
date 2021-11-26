@@ -12,7 +12,7 @@ void textSetup()
   //Tools / Create Font / Find Font / Do Not Press "OK", known bug
 }//End setup()
 // 
-void textDraw1() 
+void textDrawPre()
 {
   //Laying out text space and tyopgraphical Features
   fill(purple); //Ink, hexidecimal copied from Color Selector
@@ -20,21 +20,25 @@ void textDraw1()
   //Values: [LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
   textFont(buttonFont, 74); //Change the number until it fits, largest font size
   //textFont() has option to combine font declaration with textSize()
-  text(buttonText1, buttonX1, buttonY1, buttondisplayWidth1, buttondisplayHeight1);
-  fill(white); //reset
-  //Space for more rectangles below, with reset values
-}//End textDraw1()
+}//End textDrawPre()
 //
-void textDraw2() 
+void textDraw1() 
 {
-  //Laying out text space and tyopgraphical Features
-  fill(purple); //Ink, hexidecimal copied from Color Selector
-  textAlign (CENTER, CENTER); //Align X&Y, see Processing.org / Reference
-  //Values: [LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
-  textFont(buttonFont, 97); //Change the number until it fits, largest font size
-  //textFont() has option to combine font declaration with textSize()
-  text(buttonText2, buttonX2, buttonY2, buttondisplayWidth2, buttondisplayHeight2);
-  fill(white); //reset
+  textDrawPre();
+  text(buttonText1, buttonX1, buttonY1, buttondisplayWidth1, buttondisplayHeight1);
+  textDrawPost();
   //Space for more rectangles below, with reset values
 }//End textDraw1()
 //
+void textDraw2()
+{
+  textDrawPre();
+  text(buttonText2, buttonX2, buttonY2, buttondisplayWidth2, buttondisplayHeight2);
+  textDrawPost();
+  //Space for more rectangles below, with reset values
+}//End textDraw2()
+//
+void textDrawPost()
+{
+  fill(white); //reset
+}//End textDrawPost()

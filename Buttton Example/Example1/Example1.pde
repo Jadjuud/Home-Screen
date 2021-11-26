@@ -5,6 +5,7 @@ float buttonX1, buttonY1, buttondisplayWidth1, buttondisplayHeight1;
 float buttonX2, buttonY2, buttondisplayWidth2, buttondisplayHeight2;
 float rectdisplayX, rectdisplayY, rectdisplayWidth, rectdisplayHeight;
 float circleX, circleY, circledisplayWidth, circledisplayHeight;
+Boolean rect=false, circle=false;
 void setup() 
 {
   fullScreen();
@@ -24,6 +25,9 @@ void draw()
 
 void mousePressed()
 {
+  rect=false;
+  circle=false;
+  
 }//End mousePressed()
 //
 void keyPressed()
