@@ -25,3 +25,16 @@ void textDraw1()
   //Space for more rectangles below, with reset values
 }//End textDraw1()
 //
+void textDraw2() 
+{
+  //Laying out text space and tyopgraphical Features
+  fill(purple); //Ink, hexidecimal copied from Color Selector
+  textAlign (RIGHT, RIGHT); //Align X&Y, see Processing.org / Reference
+  //Values: [LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
+  textFont(buttonFont, 35); //Change the number until it fits, largest font size
+  //textFont() has option to combine font declaration with textSize()
+  text(buttonText1, buttonX1, buttonY1, buttondisplayWidth1, buttondisplayHeight1);
+  fill(white); //reset
+  //Space for more rectangles below, with reset values
+}//End textDraw1()
+//

@@ -1,7 +1,7 @@
 void population() 
 {
-  buttonX1 = displayWidth*1/2;
-  buttonY1 = displayHeight*1/2;
+  buttonX1 = displayWidth*1/4;
+  buttonY1 = displayHeight*3/4;
   buttondisplayWidth1 = displayWidth*1/5;
   buttondisplayHeight1 = displayHeight*1/5;
   rectdisplayX = displayWidth*1/8; 
