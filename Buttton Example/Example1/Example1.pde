@@ -17,7 +17,7 @@ void draw()
   rect(buttonX1, buttonY1, buttondisplayWidth1, buttondisplayHeight1);
   textDraw1(); //Click Me
   rect(buttonX2, buttonY2, buttondisplayWidth2, buttondisplayHeight2);
-  textDraw2(); //Or Me
+  textDraw2(); //Or Me!
   rect(rectdisplayX, rectdisplayY, rectdisplayWidth, rectdisplayHeight);
   ellipse(circleX, circleY, circledisplayWidth, circledisplayHeight);
 }//End draw
