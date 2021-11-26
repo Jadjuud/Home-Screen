@@ -12,8 +12,8 @@ void population()
   circleY = rectdisplayY;
   circledisplayWidth = displayWidth*1/8;
   circledisplayHeight = displayHeight*1/8;
-  buttonX2 = displayWidth*1/4;
-  buttonY2 = displayHeight*1/4;
-  buttondisplayWidth2 = displayWidth;
-  buttondisplayHeight2 = displayHeight;
+  buttonX2 = displayWidth*3/4;
+  buttonY2 = displayHeight*3/4;
+  buttondisplayWidth2 = buttondisplayWidth1;
+  buttondisplayHeight2 = buttondisplayHeight1;
 }//End population()

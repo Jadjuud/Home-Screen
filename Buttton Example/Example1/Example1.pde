@@ -25,3 +25,7 @@ void draw()
 void mousePressed()
 {
 }//End mousePressed()
+//
+void keyPressed()
+{
+}//End keyPressed()
