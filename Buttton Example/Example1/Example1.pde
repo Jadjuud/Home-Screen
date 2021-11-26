@@ -27,7 +27,7 @@ void mousePressed()
 {
   rect=false;
   circle=false;
-  if (mouseX>buttonX1  mouseY>buttonY1) rect=true;
+  if (mouseX>buttonX1 && mouseX<buttonX1+buttondisplayWidth1 && mouseY>buttonY1 && mouseY<button) rect=true;
   if (mouseX>buttonX2  mouseY>buttonY2) circle=true;
 }//End mousePressed()
 //
