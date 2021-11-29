@@ -21,14 +21,16 @@ void draw()
   textDraw2(); //Or Me!
   rect(rectdisplayX, rectdisplayY, rectdisplayWidth, rectdisplayHeight);
   ellipse(circleX, circleY, circledisplayWidth, circledisplayHeight);
+  if ( rect==true ) rect(rectdisplayX, rectdisplayY, rectdisplayWidth, rectdisplayHeight);
+  if ( circle==true ) ellipse(circleX, circleY, circledisplayWidth, circledisplayHeight);
 }//End draw
 
 void mousePressed()
 {
   rect=false;
   circle=false;
-  if (mouseX>buttonX1 && mouseX<buttonX1+buttondisplayWidth1 && mouseY>buttonY1 && mouseY<button) rect=true;
-  if (mouseX>buttonX2  mouseY>buttonY2) circle=true;
+  if (mouseX>buttonX1 && mouseX<buttonX1+buttondisplayWidth1 && mouseY>buttonY1 && mouseY<buttonY1+buttondisplayHeight1) rect=true;
+  if (mouseX>buttonX2  && mouseX<buttonX2+buttondisplayWidth2 && mouseY>buttonY2 && mouseY<buttonY2+buttondisplayHeight2) circle=true;
 }//End mousePressed()
 //
 void keyPressed()
