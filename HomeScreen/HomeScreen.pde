@@ -1,7 +1,7 @@
 //3x3 Home Screen
 
 //Global Variables
-color black=#000000, white=#FFFFFF;
+color black=#000000, white=#FFFFFF, red=#FC0818;
 float circleDiameter, rectdisplayWidth, rectdisplayHeight;
 float ptX1, ptY1;
 float ptX2, ptY2;
@@ -64,6 +64,7 @@ void draw()
   rect(ptX9, ptY9, rectdisplayWidth, rectdisplayHeight);
   //
   fill(black);
+  fill(color(random(255), random(0), random(0)));
   ellipse(ptX1, ptY1, circleDiameter, circleDiameter);
   ellipse(ptX2, ptY2, circleDiameter, circleDiameter);
   ellipse(ptX3, ptY3, circleDiameter, circleDiameter);
