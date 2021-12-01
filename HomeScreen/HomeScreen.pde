@@ -12,6 +12,7 @@ float ptX6, ptY6;
 float ptX7, ptY7;
 float ptX8, ptY8;
 float ptX9, ptY9;
+int pos = 0;
 
 void setup()
 {
@@ -20,7 +21,6 @@ void setup()
   population();
   //
   frameRate(4);
-  int pos = 0;
 }//End setup()
 
 void draw()
@@ -57,11 +57,6 @@ void draw()
   ellipse(ptX9, ptY9, circleDiameter, circleDiameter);
   fill(white);
   //
-  background(204);
-  pos++;
-  line(pos, 20, pos, 80);
-  if (pos > width) {
-    pos = 0;
   }//End draw()
 
   void mousePressed()
