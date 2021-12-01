@@ -17,50 +17,31 @@ void setup()
 {
   fullScreen();
   //
-  //Population 
-  ptX1 = displayWidth*0;
-  ptY1 = displayHeight*0;
-  ptX2 = displayWidth*1/3;
-  ptY2 = ptY1;
-  ptX3 = displayWidth*2/3;
-  ptY3 = ptY2;
-  ptX4 = ptX1;
-  ptY4 = displayHeight*1/3;
-  ptX5 = ptX2;
-  ptY5 = ptY4;
-  ptX6 = ptX3; 
-  ptY6 = ptY4;
-  ptX7 = ptX4;
-  ptY7 = displayHeight*2/3;
-  ptX8 = ptX5;
-  ptY8 = ptY7;
-  ptX9 = ptX6;
-  ptY9 = ptY8;
-  rectdisplayWidth = ptX2;
-  rectdisplayHeight = ptY4;
-  circleDiameter = width*1/40;
-
+  population();
   //
+  frameRate(4);
+  int pos = 0;
 }//End setup()
 
 void draw()
-{
+{ 
+  fill(color(random(255), random(255), random(255)));
   rect(ptX1, ptY1, rectdisplayWidth, rectdisplayHeight);
-  //
+  fill(color(random(255), random(255), random(0)));
   rect(ptX2, ptY2, rectdisplayWidth, rectdisplayHeight);
-  //
+  fill(color(random(255), random(0), random(255)));
   rect(ptX3, ptY3, rectdisplayWidth, rectdisplayHeight);
-  //
+  fill(color(random(0), random(255), random(0)));
   rect(ptX4, ptY4, rectdisplayWidth, rectdisplayHeight);
-  //
+  fill(color(random(0), random(255), random(255)));
   rect(ptX5, ptY5, rectdisplayWidth, rectdisplayHeight);
-  //
+  fill(color(random(0), random(0), random(255)));
   rect(ptX6, ptY6, rectdisplayWidth, rectdisplayHeight);
-  //
+  fill(color(random(255), random(0), random(255)));
   rect(ptX7, ptY7, rectdisplayWidth, rectdisplayHeight);
-  //
+  fill(color(random(255), random(0), random(255)));
   rect(ptX8, ptY8, rectdisplayWidth, rectdisplayHeight);
-  //
+  fill(color(random(255), random(0), random(255)));
   rect(ptX9, ptY9, rectdisplayWidth, rectdisplayHeight);
   //
   fill(black);
@@ -75,12 +56,18 @@ void draw()
   ellipse(ptX8, ptY8, circleDiameter, circleDiameter);
   ellipse(ptX9, ptY9, circleDiameter, circleDiameter);
   fill(white);
-}//End draw()
+  //
+  background(204);
+  pos++;
+  line(pos, 20, pos, 80);
+  if (pos > width) {
+    pos = 0;
+  }//End draw()
 
-void mousePressed()
-{
-}//End mousePressed()
+  void mousePressed()
+  {
+  }//End mousePressed()
 
-void keyPressed()
-{
-}//End keyPressed()
+  void keyPressed()
+  {
+  }//End keyPressed()
