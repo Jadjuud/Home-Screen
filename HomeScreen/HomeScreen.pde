@@ -59,9 +59,9 @@ void draw()
   fill(white);
   //
   if ( mouseX >= buttonX && mouseY >= buttonY && mouseX <= buttonX+buttondisplayWidth && mouseY <= buttonY+buttondisplayHeight ) {
-    buttonColour = red;
-  } else {
     buttonColour = green;
+  } else {
+    buttonColour = red;
   }
   //
   fill(buttonColour);
