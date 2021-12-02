@@ -18,11 +18,15 @@
   ptY8 = ptY7;
   ptX9 = ptX6;
   ptY9 = ptY8;
-  rectdisplayWidth = ptX2;
-  rectdisplayHeight = ptY4;
-  circleDiameter = width*1/40;
-  buttonX = width*2.7/3;
-  buttonY = height*0;
+  rectdisplayWidth1 = ptX2;
+  rectdisplayHeight1 = ptY4;
+  circleDiameter = displayWidth*1/40;
+  buttonX = displayWidth*2.7/3;
+  buttonY = displayHeight*0;
   buttondisplayWidth = displayWidth*1/3;
   buttondisplayHeight = displayHeight*1/9;
+  rectX1 = displayWidth*1/3;
+  rectY1 = displayHeight*2/3;
+  rectdisplayWidth2 = displayWidth*1/3;
+  rectdisplayHeight2 = displayHeight*1/3;
 }//End population()

@@ -1,23 +1,25 @@
 void rect()
 {
   fill(color(random(255), random(255), random(255)));
-  rect(ptX1, ptY1, rectdisplayWidth, rectdisplayHeight);
+  rect(ptX1, ptY1, rectdisplayWidth1, rectdisplayHeight1);
   fill(color(random(255), random(255), random(0)));
-  rect(ptX2, ptY2, rectdisplayWidth, rectdisplayHeight);
+  rect(ptX2, ptY2, rectdisplayWidth1, rectdisplayHeight1);
   fill(color(random(255), random(0), random(255)));
-  rect(ptX3, ptY3, rectdisplayWidth, rectdisplayHeight);
+  rect(ptX3, ptY3, rectdisplayWidth1, rectdisplayHeight1);
   fill(color(random(0), random(255), random(0)));
-  rect(ptX4, ptY4, rectdisplayWidth, rectdisplayHeight);
+  rect(ptX4, ptY4, rectdisplayWidth1, rectdisplayHeight1);
   fill(color(random(0), random(255), random(255)));
-  rect(ptX5, ptY5, rectdisplayWidth, rectdisplayHeight);
+  rect(ptX5, ptY5, rectdisplayWidth1, rectdisplayHeight1);
   fill(color(random(0), random(0), random(255)));
-  rect(ptX6, ptY6, rectdisplayWidth, rectdisplayHeight);
+  rect(ptX6, ptY6, rectdisplayWidth1, rectdisplayHeight1);
   fill(color(random(255), random(0), random(255)));
-  rect(ptX7, ptY7, rectdisplayWidth, rectdisplayHeight);
+  rect(ptX7, ptY7, rectdisplayWidth1, rectdisplayHeight1);
   fill(color(random(255), random(0), random(255)));
-  rect(ptX8, ptY8, rectdisplayWidth, rectdisplayHeight);
+  rect(ptX8, ptY8, rectdisplayWidth1, rectdisplayHeight1);
   fill(color(random(255), random(0), random(255)));
-  rect(ptX9, ptY9, rectdisplayWidth, rectdisplayHeight);
+  rect(ptX9, ptY9, rectdisplayWidth1, rectdisplayHeight1);
+  //
+  rect(rectX1, rectY1, rectdisplayWidth2, rectdisplayHeight2);
 } 
 //
 void ellipse()
