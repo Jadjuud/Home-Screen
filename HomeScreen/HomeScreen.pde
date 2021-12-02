@@ -72,7 +72,6 @@ void draw()
   void mousePressed()
   {
   if (mouseX >= buttonX && mouseY >= buttonY && mouseX <= buttonX+buttondisplayWidth && mouseY <= buttonY+buttondisplayHeight) exit();
-
   }//End mousePressed()
 
   void keyPressed()
