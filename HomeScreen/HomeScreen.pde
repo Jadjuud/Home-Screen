@@ -1,7 +1,7 @@
 //3x3 Home Screen
 
 //Global Variables
-color black=#000000, white=#FFFFFF, red=#FC0818;
+color buttonColour, black=#000000, white=#FFFFFF, red=#FC0818, green=#3CF0A3, reset=white;
 float circleDiameter, rectdisplayWidth, rectdisplayHeight;
 float ptX1, ptY1;
 float ptX2, ptY2;
@@ -12,6 +12,7 @@ float ptX6, ptY6;
 float ptX7, ptY7;
 float ptX8, ptY8;
 float ptX9, ptY9;
+float buttonX, buttonY, buttondisplayWidth, buttondisplayHeight;
 int pos = 0;
 
 void setup()
@@ -57,10 +58,21 @@ void draw()
   ellipse(ptX9, ptY9, circleDiameter, circleDiameter);
   fill(white);
   //
+  if ( mouseX >= buttonX && mouseY >= buttonY && mouseX <= buttonX+buttondisplayWidth && mouseY <= buttonY+buttondisplayHeight ) {
+    buttonColour = red;
+  } else {
+    buttonColour = green;
+  }
+  //
+  fill(buttonColour);
+  rect(buttonX, buttonY, buttondisplayWidth, buttondisplayHeight);
+  fill(reset);
   }//End draw()
 
   void mousePressed()
   {
+  if (mouseX >= buttonX && mouseY >= buttonY && mouseX <= buttonX+buttondisplayWidth && mouseY <= buttonY+buttondisplayHeight) exit();
+
   }//End mousePressed()
 
   void keyPressed()

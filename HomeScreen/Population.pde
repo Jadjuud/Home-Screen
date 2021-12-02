@@ -21,4 +21,8 @@
   rectdisplayWidth = ptX2;
   rectdisplayHeight = ptY4;
   circleDiameter = width*1/40;
+  buttonX = width*1/4;
+  buttonY = height*1/3;
+  buttondisplayWidth = width*1/2;
+  buttondisplayHeight = height*1/3;
 }//End population()
