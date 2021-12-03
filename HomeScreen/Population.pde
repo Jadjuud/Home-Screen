@@ -26,13 +26,13 @@
   buttondisplayWidth1 = displayWidth*1/3;
   buttondisplayHeight1 = displayHeight*1/9;
   //
-  buttonX2 = displayWidth*2.7/3;
-  buttonY2 = displayHeight*1/3;
-  buttondisplayWidth2 = displayWidth*1/3;
+  buttonX2 = displayWidth*1/3;
+  buttonY2 = displayHeight*0;
+  buttondisplayWidth2 = displayWidth*1/9;
   buttondisplayHeight2 = displayHeight*1/9;
   //
-  buttonX3 = displayWidth*2.7/3;
-  buttonY3 = displayHeight*2/3;
+  buttonX3 = displayWidth*1/3;
+  buttonY3 = displayHeight*1/3;
   buttondisplayWidth3 = displayWidth*1/3;
   buttondisplayHeight3 = displayHeight*1/9;
   //
