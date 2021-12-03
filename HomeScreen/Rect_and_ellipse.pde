@@ -18,6 +18,9 @@ void rect()
   rect(ptX8, ptY8, rectdisplayWidth1, rectdisplayHeight1);
   fill(color(random(255), random(0), random(255)));
   rect(ptX9, ptY9, rectdisplayWidth1, rectdisplayHeight1);
+  rect(buttonX2, buttonY2, buttondisplayWidth2, buttondisplayHeight2);
+  rect(buttonX3, buttonY3, buttondisplayWidth3, buttondisplayHeight3);
+  rect(buttonX4, buttonY4, buttondisplayWidth4, buttondisplayHeight4);
 } 
 //
 void ellipse()

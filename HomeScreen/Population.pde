@@ -25,4 +25,19 @@
   buttonY1 = displayHeight*0;
   buttondisplayWidth1 = displayWidth*1/3;
   buttondisplayHeight1 = displayHeight*1/9;
+  //
+  buttonX2 = displayWidth*2.7/3;
+  buttonY2 = displayHeight*1/3;
+  buttondisplayWidth2 = displayWidth*1/3;
+  buttondisplayHeight2 = displayHeight*1/9;
+  //
+  buttonX3 = displayWidth*2.7/3;
+  buttonY3 = displayHeight*2/3;
+  buttondisplayWidth3 = displayWidth*1/3;
+  buttondisplayHeight3 = displayHeight*1/9;
+  //
+  buttonX4 = displayWidth*2.7/3;
+  buttonY4 = displayHeight*0;
+  buttondisplayWidth4 = displayWidth*1/3;
+  buttondisplayHeight4 = displayHeight*1/9;
 }//End population()

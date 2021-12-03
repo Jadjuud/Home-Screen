@@ -33,20 +33,20 @@ void draw()
   //
 ellipse();
   //
-  if ( mouseX >= buttonX && mouseY >= buttonY && mouseX <= buttonX+buttondisplayWidth && mouseY <= buttonY+buttondisplayHeight ) {
+  if ( mouseX >= buttonX1 && mouseY >= buttonY1 && mouseX <= buttonX1+buttondisplayWidth1 && mouseY <= buttonY1+buttondisplayHeight1 ) {
     buttonColour = green;
   } else {
     buttonColour = red;
   }
   //
   fill(buttonColour); 
-  rect(buttonX, buttonY, buttondisplayWidth, buttondisplayHeight);
+  rect(buttonX1, buttonY1, buttondisplayWidth1, buttondisplayHeight1);
   fill(reset);
   }//End draw()
 
   void mousePressed()
   {
-  if (mouseX >= buttonX && mouseY >= buttonY && mouseX <= buttonX+buttondisplayWidth && mouseY <= buttonY+buttondisplayHeight) exit();
+  if (mouseX >= buttonX1 && mouseY >= buttonY1 && mouseX <= buttonX1+buttondisplayWidth1 && mouseY <= buttonY1+buttondisplayHeight1) exit();
   }//End mousePressed()
 
   void keyPressed()
