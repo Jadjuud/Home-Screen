@@ -18,13 +18,11 @@ void rect()
   rect(ptX8, ptY8, rectdisplayWidth1, rectdisplayHeight1);
   fill(color(random(255), random(0), random(255)));
   rect(ptX9, ptY9, rectdisplayWidth1, rectdisplayHeight1);
-  //
-  rect(rectX1, rectY1, rectdisplayWidth2, rectdisplayHeight2);
 } 
 //
 void ellipse()
 {
-    fill(black);
+  fill(black);
   fill(color(random(255), random(0), random(0)));
   ellipse(ptX1, ptY1, circleDiameter, circleDiameter);
   ellipse(ptX2, ptY2, circleDiameter, circleDiameter);

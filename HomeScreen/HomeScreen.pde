@@ -11,10 +11,13 @@ float ptX6, ptY6;
 float ptX7, ptY7;
 float ptX8, ptY8;
 float ptX9, ptY9;
-float buttonX, buttonY, buttondisplayWidth, buttondisplayHeight;
-float rectX1, rectY1, rectdisplayWidth2, rectdisplayHeight2, rectcolour;
+float buttonX1, buttonY1, buttondisplayWidth1, buttondisplayHeight1;
+float buttonX2, buttonY2, buttondisplayWidth2, buttondisplayHeight2;
+float buttonX3, buttonY3, buttondisplayWidth3, buttondisplayHeight3;
+float buttonX4, buttonY4, buttondisplayWidth4, buttondisplayHeight4;
 color buttonColour, black=#000000, white=#FFFFFF, red=#FC0818, green=#3CF0A3, reset=white;
 int pos = 0;
+
 void setup()
 {
   fullScreen();
@@ -27,7 +30,6 @@ void setup()
 void draw()
 { 
   rect();
-  rectcolour= white;
   //
 ellipse();
   //
