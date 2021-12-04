@@ -26,18 +26,18 @@
   buttondisplayWidth1 = displayWidth*1/3;
   buttondisplayHeight1 = displayHeight*1/9;
   //
-  buttonX2 = displayWidth*1/3;
-  buttonY2 = displayHeight*0;
+  buttonX2 = displayWidth*0.4/3;
+  buttonY2 = displayHeight*1/3;
   buttondisplayWidth2 = displayWidth*1/9;
   buttondisplayHeight2 = displayHeight*1/9;
   //
-  buttonX3 = displayWidth*1/3;
+  buttonX3 = displayWidth*1.4/3;
   buttonY3 = displayHeight*1/3;
-  buttondisplayWidth3 = displayWidth*1/3;
-  buttondisplayHeight3 = displayHeight*1/9;
+  buttondisplayWidth3 = buttondisplayWidth2;
+  buttondisplayHeight3 = buttondisplayHeight2;
   //
-  buttonX4 = displayWidth*2.7/3;
-  buttonY4 = displayHeight*0;
-  buttondisplayWidth4 = displayWidth*1/3;
-  buttondisplayHeight4 = displayHeight*1/9;
+  buttonX4 = displayWidth*2.4/3;
+  buttonY4 = displayHeight*1/3;
+  buttondisplayWidth4 = buttondisplayWidth3;
+  buttondisplayHeight4 = buttondisplayHeight3;
 }//End population()

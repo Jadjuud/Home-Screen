@@ -41,6 +41,9 @@ ellipse();
   //
   fill(buttonColour); 
   rect(buttonX1, buttonY1, buttondisplayWidth1, buttondisplayHeight1);
+  rect(buttonX2, buttonY2, buttondisplayWidth2, buttondisplayHeight2);
+  rect(buttonX3, buttonY3, buttondisplayWidth3, buttondisplayHeight3);
+  rect(buttonX4, buttonY4, buttondisplayWidth4, buttondisplayHeight4);
   fill(reset);
   }//End draw()
 
