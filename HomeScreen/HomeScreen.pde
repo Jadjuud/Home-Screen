@@ -63,8 +63,8 @@ ellipse();
       exit();
    else if (mouseX >= buttonX2 && mouseY >= buttonY2 && mouseX <= buttonX2+buttondisplayWidth2 && mouseY <= buttonY2+buttondisplayHeight2){
      //do something
-     text("test", 500, 1500);
-     fill("test");
+     //text("test", 500, 1500);
+     javax.swing.JOptionPane.showMessageDialog(null, "This is a test");
    }
    
 
