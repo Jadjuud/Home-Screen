@@ -15,7 +15,7 @@ float buttonX1, buttonY1, buttondisplayWidth1, buttondisplayHeight1;
 float buttonX2, buttonY2, buttondisplayWidth2, buttondisplayHeight2;
 float buttonX3, buttonY3, buttondisplayWidth3, buttondisplayHeight3;
 float buttonX4, buttonY4, buttondisplayWidth4, buttondisplayHeight4;
-color buttonColour, black=#000000, white=#FFFFFF, red=#FC0818, green=#3CF0A3, reset=white;
+color buttonColour1, buttonColour2, buttonColour3, buttonColour4, black=#000000, white=#FFFFFF, red=#FC0818, green=#3CF0A3, yellow=#E6F734, blue=#1988F5, purple=#A74FF5, reset=white;
 int pos = 0;
 
 void setup()
@@ -23,7 +23,7 @@ void setup()
   fullScreen();
   //
   population();
-  //
+  // 
   frameRate(4);
 }//End setup()
 
@@ -34,15 +34,24 @@ void draw()
 ellipse();
   //
   if ( mouseX >= buttonX1 && mouseY >= buttonY1 && mouseX <= buttonX1+buttondisplayWidth1 && mouseY <= buttonY1+buttondisplayHeight1 ) {
-    buttonColour = green;
+    buttonColour1 = green;
+    buttonColour2 = blue;
+    buttonColour3 = purple;
+    buttonColour4 = yellow;
   } else {
-    buttonColour = red;
+    buttonColour1 = red;
+    buttonColour2 = purple;
+    buttonColour3 = yellow;
+    buttonColour4 = blue;
   }
   //
-  fill(buttonColour); 
+  fill(buttonColour1); 
   rect(buttonX1, buttonY1, buttondisplayWidth1, buttondisplayHeight1);
+  fill(buttonColour2);
   rect(buttonX2, buttonY2, buttondisplayWidth2, buttondisplayHeight2);
+  fill(buttonColour3);
   rect(buttonX3, buttonY3, buttondisplayWidth3, buttondisplayHeight3);
+  fill(buttonColour4);
   rect(buttonX4, buttonY4, buttondisplayWidth4, buttondisplayHeight4);
   fill(reset);
   }//End draw()
