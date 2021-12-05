@@ -12,11 +12,12 @@ void rect()
   rect(ptX5, ptY5, rectdisplayWidth1, rectdisplayHeight1);
   fill(color(random(0), random(0), random(255)));
   rect(ptX6, ptY6, rectdisplayWidth1, rectdisplayHeight1);
-  fill(color(random(255), random(0), random(255)));
+  //fill(reset);
+  //fill(color(random(255), random(0), random(255)));
   rect(ptX7, ptY7, rectdisplayWidth1, rectdisplayHeight1);
-  fill(color(random(255), random(0), random(255)));
+  //fill(color(random(255), random(0), random(255)));
   rect(ptX8, ptY8, rectdisplayWidth1, rectdisplayHeight1);
-  fill(color(random(255), random(0), random(255)));
+  //fill(color(random(255), random(0), random(255)));
   rect(ptX9, ptY9, rectdisplayWidth1, rectdisplayHeight1);
   rect(buttonX2, buttonY2, buttondisplayWidth2, buttondisplayHeight2);
   rect(buttonX3, buttonY3, buttondisplayWidth3, buttondisplayHeight3);

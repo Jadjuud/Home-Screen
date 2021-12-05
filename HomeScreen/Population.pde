@@ -32,12 +32,12 @@
   buttondisplayHeight2 = displayHeight*1/9;
   //
   buttonX3 = displayWidth*1.4/3;
-  buttonY3 = displayHeight*1/3;
+  buttonY3 = buttonY2;
   buttondisplayWidth3 = buttondisplayWidth2;
   buttondisplayHeight3 = buttondisplayHeight2;
   //
   buttonX4 = displayWidth*2.4/3;
-  buttonY4 = displayHeight*1/3;
+  buttonY4 = buttonY3;
   buttondisplayWidth4 = buttondisplayWidth3;
   buttondisplayHeight4 = buttondisplayHeight3;
 }//End population()

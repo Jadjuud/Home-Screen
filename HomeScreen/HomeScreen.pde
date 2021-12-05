@@ -61,9 +61,10 @@ ellipse();
   {
   if (mouseX >= buttonX1 && mouseY >= buttonY1 && mouseX <= buttonX1+buttondisplayWidth1 && mouseY <= buttonY1+buttondisplayHeight1)  //<>//
       exit();
-   else if (mouseX <= ptX2){
+   else if (mouseX >= buttonX2 && mouseY >= buttonY2 && mouseX <= buttonX2+buttondisplayWidth2 && mouseY <= buttonY2+buttondisplayHeight2){
      //do something
-     text("test", 100, 100);
+     text("test", 500, 1500);
+     fill("test");
    }
    
 
