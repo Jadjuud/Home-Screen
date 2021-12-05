@@ -15,7 +15,8 @@ float buttonX1, buttonY1, buttondisplayWidth1, buttondisplayHeight1;
 float buttonX2, buttonY2, buttondisplayWidth2, buttondisplayHeight2;
 float buttonX3, buttonY3, buttondisplayWidth3, buttondisplayHeight3;
 float buttonX4, buttonY4, buttondisplayWidth4, buttondisplayHeight4;
-color buttonColour1, buttonColour2, buttonColour3, buttonColour4, black=#000000, white=#FFFFFF, red=#FC0818, green=#3CF0A3, yellow=#E6F734, blue=#1988F5, purple=#A74FF5, reset=white;
+color buttonColour1, buttonColour2, buttonColour3, buttonColour4;
+color black=#000000, white=#FFFFFF, red=#FC0818, green=#3CF0A3, yellow=#E6F734, blue=#1988F5, purple=#A74FF5, reset=white;
 int pos = 0;
 
 void setup()
@@ -58,7 +59,15 @@ ellipse();
 
   void mousePressed()
   {
-  if (mouseX >= buttonX1 && mouseY >= buttonY1 && mouseX <= buttonX1+buttondisplayWidth1 && mouseY <= buttonY1+buttondisplayHeight1) exit();
+  if (mouseX >= buttonX1 && mouseY >= buttonY1 && mouseX <= buttonX1+buttondisplayWidth1 && mouseY <= buttonY1+buttondisplayHeight1)  //<>//
+      exit();
+   else if (mouseX <= ptX2){
+     //do something
+     text("test", 100, 100);
+   }
+   
+
+   
   }//End mousePressed()
 
   void keyPressed()
